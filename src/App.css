@@ -19,7 +19,7 @@ body, html, #root {
   min-height: 100vh;
 }
 body{
-  background: url(/src/assets/Fondoinicio.png);
+  background-color: #38B6FF;
 }
 
 @font-face {
@@ -216,7 +216,7 @@ body{
   background: url(./assets/glitter.jpg);
 }
 .varios{
-  background-color: skyblue;
+  background-color: #38B6FF;
   width: 90%;
   height: 90%;
 

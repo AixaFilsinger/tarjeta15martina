@@ -1,4 +1,4 @@
-import adorno from "../assets/1000369929.png";
+import adorno from "../assets/adorno.png";
 import boladisco from "../assets/Boladisco.png";
 import dressCode from "../assets/Dresscode.png";
 import Notamusical from "../assets/Notamusical.png";
