@@ -19,7 +19,7 @@ body, html, #root {
   min-height: 100vh;
 }
 body{
-  background-color: #850923;
+  background: url(/src/assets/Fondoinicio.png);
 }
 
 @font-face {
@@ -82,7 +82,7 @@ body{
       rgba(133, 9, 35, 0.7)   
       rgba(255, 0, 0, 0) 70%    
     ),*/
-  url(./assets/portada.png);
+  url(./assets/fotoportada.webp);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -167,13 +167,14 @@ body{
 }
 
 .frase1{
+   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   font-family: 'Buffalo', cursive;
   font-size: 1.5rem;
   color: white;
   text-align: center;
 }
 .cuentaRe{
-   background: url(./assets/cuentafoto.png);
+   background: url(./assets/fotocuenta.webp);
   background-size: cover;
   /*background-attachment: fixed;*/
   background-position: center;
@@ -192,26 +193,30 @@ body{
   font-family: 'Amoresa', sans-serif;
   font-size: 1.9rem;
   padding-bottom: 4rem;
+   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 .cuentaRe p{
   font-family: 'Amoresa', sans-serif;
   font-size: 1.2rem;
   margin-bottom: 30px;
+   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 .contador h3{
   font-size: 4rem;
    font-family:'Times New Roman', Times, serif;
    font-weight: 200;
    margin: 0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 .contador small{
   font-family:'Courier New', Courier, monospace;
+   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 .varios0{
   background: url(./assets/glitter.jpg);
 }
 .varios{
-  background-color: #850923;
+  background-color: skyblue;
   width: 90%;
   height: 90%;
 

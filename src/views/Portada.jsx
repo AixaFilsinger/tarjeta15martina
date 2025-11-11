@@ -1,5 +1,5 @@
 const Portada = () => {
-  const texto = "Milagros"; // 👉 poné el texto que quieras
+  const texto = "Martina"; // 👉 poné el texto que quieras
   const texto2 = "Mis quince años"; // 👉 poné el texto que quieras
   return (
     <section className="portada">

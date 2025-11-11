@@ -61,7 +61,7 @@ const Varios = () => {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
           >
-            29 de noviembre <br />
+            6 de diciembre <br />
             21:30
           </p>
         </aside>
@@ -79,12 +79,12 @@ const Varios = () => {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
           >
-            Salón Torre Molino
+            El Ceibo Salón<br/>Lules
           </p>
           <button
             className="btn-varios mt-3 mb-5"
             onClick={() =>
-              window.open("https://maps.app.goo.gl/TZHeGarFSuTrbdZf7")
+              window.open("https://maps.app.goo.gl/EfE6FWm4xhtEBnTs7")
             }
           >
             CÓMO LLEGAR
@@ -105,7 +105,7 @@ const Varios = () => {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
           >
-            Elegante<br /> Evitar el color rojo
+            Elegante sport<br /> Evitar el color celeste y plateado
           </p>
         </aside>
         <aside className="col-xs-12 text-center playlist mb-4">
@@ -146,7 +146,7 @@ const Varios = () => {
           </p>
           <button
             className="btn-varios mt-3 mb-5"
-            onClick={() => window.open("https://wa.link/26qz7t")}
+            onClick={() => window.open("https://wa.link/m64j5m")}
           >
             Confirmar Asistencia
           </button>
@@ -180,10 +180,10 @@ const Varios = () => {
 
               {/* Los <p> ahora sí se ven */}
               <p className="mb-1">
-                <strong>Alias:</strong> roxi.53
+                <strong>Alias:</strong> MARTINA.LLOPEZZZ
               </p>
               <p className="mb-3">
-                <strong>A nombre de:</strong><br/>Roxana Portuese
+                <strong>A nombre de:</strong><br/>Martina lopez
               </p>
 
               <button
@@ -212,7 +212,7 @@ const Varios = () => {
       >
         <img src={brillo} alt="" className="brillo brillo-top1" />
         <h4  data-aos="zoom-in-down">¡No podes faltar!</h4>
-        <h2  data-aos="zoom-in-down">Milagros</h2>
+        <h2  data-aos="zoom-in-down">Martina</h2>
         <img src={brillo} alt="" className="brillo brillo-bottom1" />
       </article>
     </section>
