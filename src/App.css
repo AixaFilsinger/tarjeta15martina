@@ -238,7 +238,7 @@ body{
 .btn-varios {
   background: transparent;
   color: #fff;
-  border: 2px solid gold;
+  border: 2px solid rgb(168, 168, 168);
   border-radius: 50px;
   padding: 12px 30px;
   font-size: 1.1rem;
@@ -250,8 +250,8 @@ body{
 }
 
 .btn-varios:hover {
-  background: gold;
-  color: #800020; /* texto vino */
+  background: skyblue;
+  color: white; /* texto vino */
   box-shadow: 0 6px 15px rgba(0,0,0,0.3);
 }
 
@@ -296,19 +296,19 @@ body{
 }
 
 .modal-custom {
-  color: #850923;             /* texto oscuro */
+  color: #38B6FF;             /* texto oscuro */
   font-family: 'Nunito', sans-serif;
 }
 .modal-custom p {
   font-family:'Nunito', sans-serif ;
-  color: #800020;             /* asegura que los párrafos se vean */
+  color: #38B6FF;             /* asegura que los párrafos se vean */
   font-size: 1.5rem;
   margin: 8px 0;
 }
 .btn-varios2 {
-  background: #800020;
+  background: #38B6FF;
   color: #fff;
-  border: 2px solid gold;
+  border: 2px solid rgb(168, 168, 168);
   border-radius: 50px;
   padding: 12px 30px;
   font-size: 1.1rem;
