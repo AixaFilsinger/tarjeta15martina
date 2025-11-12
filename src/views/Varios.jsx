@@ -38,7 +38,7 @@ const Varios = () => {
             20hs
           </p>
           <button
-            className="btn-varios2 mt-3 mb-5"
+            className="btn-varios3 mt-3 mb-5"
             onClick={() =>
               window.open("https://maps.app.goo.gl/KVPWULJEK3yu9vaE6")
             }

@@ -262,18 +262,9 @@ body{
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.btn-varios2 {
-  /* Fondo principal: Plateado claro */
-  background-color: black;
-  /* Simula el brillo y la profundidad del metal */
-  /* Sombra sutil para levantar el botón */
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); 
-  
-  /* Asegura los colores de texto y contenido */
-  color: white; /* Texto Negro */
-  /* Los iconos en blanco serán definidos por su propio selector */
-  /* .boton-plateado .icono { color: white; } */
-  
+.btn-varios3{
+ background-color: black;
+ color: white;
   border-radius: 50px;
   padding: 12px 30px;
   font-size: 1.1rem;
