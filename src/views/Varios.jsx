@@ -1,4 +1,4 @@
-import adorno from "../assets/adorno.png";
+import adorno from "../assets/adornopastel.png";
 import boladisco from "../assets/Boladisco.png";
 import dressCode from "../assets/Dresscode.png";
 import Notamusical from "../assets/Notamusical.png";
@@ -128,7 +128,7 @@ const Varios = () => {
             className="btn-varios mt-3 mb-5"
             onClick={() =>
               window.open(
-                "https://open.spotify.com/playlist/2WHLlY0yQwWhGNDeti796r?si=DbqX2fBeShiJS8w295xqUQ"
+                "https://open.spotify.com/playlist/2wsV7QkiEKw8s2lRdY97vA?si=WkXI4vrbRr-KIjLxGhWeGg"
               )
             }
           >

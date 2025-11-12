@@ -19,7 +19,7 @@ body, html, #root {
   min-height: 100vh;
 }
 body{
-  background-color: #38B6FF;
+  background-color: #8cd5ff;
 }
 
 @font-face {
@@ -167,10 +167,10 @@ body{
 }
 
 .frase1{
-   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+   /*text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);*/
   font-family: 'Buffalo', cursive;
   font-size: 1.5rem;
-  color: white;
+  color: black;
   text-align: center;
 }
 .cuentaRe{
@@ -183,7 +183,7 @@ body{
 
   display: flex;
   justify-content: center;   /* centra el bloque horizontal */
-  align-items: flex-end;     /* lleva al final vertical */
+  align-items: flex-center;     /* lleva al final vertical */
   padding-bottom: 20px;
   text-align: center;        /* centra texto dentro del bloque */
   color: white;
@@ -191,18 +191,18 @@ body{
 
 .h2-cuentaRe{
   font-family: 'Amoresa', sans-serif;
-  font-size: 1.9rem;
+  font-size: 2rem;
   padding-bottom: 4rem;
    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 .cuentaRe p{
   font-family: 'Amoresa', sans-serif;
-  font-size: 1.2rem;
-  margin-bottom: 30px;
+  font-size: 1.5rem;
+  margin-bottom: 5rem;
    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 .contador h3{
-  font-size: 4rem;
+  font-size: 5rem;
    font-family:'Times New Roman', Times, serif;
    font-weight: 200;
    margin: 0;
@@ -216,7 +216,8 @@ body{
   background: url(./assets/glitter.jpg);
 }
 .varios{
-  background-color: #38B6FF;
+  background-color: #8cd5ff;
+  opacity: 0.93; /* El 70% de opacidad (un poco transparente) */
   width: 90%;
   height: 90%;
 
@@ -296,17 +297,17 @@ body{
 }
 
 .modal-custom {
-  color: #38B6FF;             /* texto oscuro */
+  color: #8cd5ff;             /* texto oscuro */
   font-family: 'Nunito', sans-serif;
 }
 .modal-custom p {
   font-family:'Nunito', sans-serif ;
-  color: #38B6FF;             /* asegura que los párrafos se vean */
+  color: #8cd5ff;             /* asegura que los párrafos se vean */
   font-size: 1.5rem;
   margin: 8px 0;
 }
 .btn-varios2 {
-  background: #38B6FF;
+  background: #8cd5ff;
   color: #fff;
   border: 2px solid rgb(168, 168, 168);
   border-radius: 50px;
@@ -329,6 +330,12 @@ body{
 .brillo {
   position: absolute;
   width: 120px;  /* ajusta según quieras */
+  opacity: 0.8;
+  animation: float 3s ease-in-out infinite;
+}
+.brillo1 {
+  position: absolute;
+  width: 50px;  /* ajusta según quieras */
   opacity: 0.8;
   animation: float 3s ease-in-out infinite;
 }
