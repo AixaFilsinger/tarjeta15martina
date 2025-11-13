@@ -34,7 +34,7 @@ const Varios = () => {
             data-aos-easing="ease-in-sine"
           >
             6 de diciembre <br />
-            21:30
+            21:30 hs
           </p>
         </aside>
         <aside className="col-xs-12 text-center donde mb-4 position-relative">
