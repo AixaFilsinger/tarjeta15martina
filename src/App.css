@@ -200,18 +200,18 @@ body{
   font-family: 'Amoresa', sans-serif;
   font-size: 1.4rem;
   margin-bottom: 20px;
-   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+   
 }
 .contador h3{
-  font-size: 5rem;
+  font-size: 4rem;
    font-family: 'Montserrat', sans-serif;
    
    margin: 0;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+   
 }
 .contador small{
   font-family:'Courier New', Courier, monospace;
-   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+   
 }
 .varios0{
   background: url(./assets/glitter.jpg);
