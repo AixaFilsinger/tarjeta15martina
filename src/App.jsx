@@ -22,7 +22,7 @@ function App() {
   return (
     <section>
      <Portada></Portada>
-     
+     <ReproductorMusic></ReproductorMusic>
      <Carrusel></Carrusel>
      <Frase></Frase>
      <CuentaRegresiva></CuentaRegresiva>

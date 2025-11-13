@@ -1,12 +1,12 @@
 import adorno from "../assets/adornopastel.png";
-import boladisco from "../assets/boladisco1.png";
-import dressCode from "../assets/Dresscode.png";
-import Notamusical from "../assets/Notamusical.png";
-import copas from "../assets/fiesta.png";
-import asistencia from "../assets/invitacion.png";
-import regalo from "../assets/regalo.png";
+import boladisco from "../assets/boladiscoN.png";
+import dressCode from "../assets/DresscodeN.png";
+import Notamusical from "../assets/boladiscoN.png";
+import copas from "../assets/copasN.png";
+import asistencia from "../assets/invitacionN.png";
+import regalo from "../assets/regaloN.png";
 import brillo from "../assets/star.png";
-import qr from "../assets/QR.jpg";
+
 import { useState } from "react";
 
 const Varios = () => {

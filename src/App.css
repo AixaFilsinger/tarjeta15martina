@@ -20,7 +20,18 @@ body, html, #root {
   min-height: 100vh;
 }
 body{
-  background-color: #8cd5ff;
+  background: linear-gradient(
+    45deg,
+    #F5F5F5 0%,   /* Blanco/Gris muy claro para el brillo */
+    #BDBDBD 35%,  /* Gris medio */
+    #696969 50%,  /* Gris oscuro para contraste */
+    #BDBDBD 65%,  /* Gris medio */
+    #F5F5F5 100%  /* Blanco/Gris muy claro para el brillo */
+  );
+
+  /* Fallback */
+  background-color: #C0C0C0;
+
 }
 
 @font-face {
@@ -83,7 +94,7 @@ body{
       rgba(133, 9, 35, 0.7)   
       rgba(255, 0, 0, 0) 70%    
     ),*/
-  url(./assets/fotoinicio.png);
+  url(./assets/fotocarru2.webp);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -116,7 +127,7 @@ body{
 
 .dalePlay{
   font-family:'Buffalo', cursive;
-  color: white;
+  color: black;
   font-size: 2rem;
 }
 
@@ -148,7 +159,7 @@ body{
 
 .btn-music {
   background-color: white; /* botón blanco */
-  color: rgb(123, 26, 45); /* ícono carmesí */
+  color: black; /* ícono carmesí */
   border: none;
   padding: 8px 14px;
   border-radius: 50%; /* botón redondo */
@@ -157,7 +168,7 @@ body{
 }
 
 .btn-music:hover {
-   background-color: rgb(123, 26, 45); /* O tu código de rojo vino preferido */
+   background-color: black; /* O tu código de rojo vino preferido */
   color: white; /* ícono blanco */
 }
 
@@ -175,7 +186,7 @@ body{
   text-align: center;
 }
 .cuentaRe{
-   background: url(./assets/fotocuenta.png);
+   background: url(./assets/fotomartu.jpeg);
   background-size: cover;
   /*background-attachment: fixed;*/
   background-position: center;
@@ -217,8 +228,7 @@ body{
   background: url(./assets/glitter.jpg);
 }
 .varios{
-  background-color: #8cd5ff;
-  opacity: 0.93; /* El 70% de opacidad (un poco transparente) */
+  background-color: white;
   width: 90%;
   height: 90%;
 
@@ -270,8 +280,18 @@ body{
 }
 
 .btn-varios:hover {
-  background: skyblue;
-  color: white; /* texto vino */
+  background: linear-gradient(
+    45deg,
+    #F5F5F5 0%,   /* Blanco/Gris muy claro para el brillo */
+    #BDBDBD 35%,  /* Gris medio */
+    #696969 50%,  /* Gris oscuro para contraste */
+    #BDBDBD 65%,  /* Gris medio */
+    #F5F5F5 100%  /* Blanco/Gris muy claro para el brillo */
+  );
+
+  /* Fallback */
+  background-color: #C0C0C0;
+  color: black;
   box-shadow: 0 6px 15px rgba(0,0,0,0.3);
 }
 
