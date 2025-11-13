@@ -6,7 +6,6 @@ import copas from "../assets/fiesta.png";
 import asistencia from "../assets/invitacion.png";
 import regalo from "../assets/regalo.png";
 import brillo from "../assets/star.png";
-import misa from "../assets/misa.png";
 import qr from "../assets/qr.jpeg";
 import { useState } from "react";
 
