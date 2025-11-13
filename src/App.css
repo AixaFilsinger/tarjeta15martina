@@ -20,18 +20,7 @@ body, html, #root {
   min-height: 100vh;
 }
 body{
-  background: linear-gradient(
-    45deg,
-    #F5F5F5 0%,   /* Blanco/Gris muy claro para el brillo */
-    #BDBDBD 35%,  /* Gris medio */
-    #696969 50%,  /* Gris oscuro para contraste */
-    #BDBDBD 65%,  /* Gris medio */
-    #F5F5F5 100%  /* Blanco/Gris muy claro para el brillo */
-  );
-
-  /* Fallback */
-  background-color: #C0C0C0;
-
+  background: url(/src/assets/frase.png);
 }
 
 @font-face {
@@ -152,7 +141,7 @@ body{
 
 .song-title {
   font-weight: bold;
-  color: white; /* texto blanco */
+  color: black; /* texto blanco */
   margin-bottom: 10px;
   font-size: 16px;
 }

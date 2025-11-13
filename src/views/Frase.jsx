@@ -1,5 +1,5 @@
 import React from 'react';
-import adorno from '../assets/adornopastel.png'
+import adorno from '../assets/Adornonegro.png'
 
 const Frase = () => {
     return (

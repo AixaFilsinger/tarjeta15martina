@@ -48,7 +48,7 @@ const CuentaRegresiva = () => {
       <h2 className="h2-cuentaRe mb-0">¡Tan solo faltan!</h2>
       <aside className="">
         <div className="d-flex flex-column align-items-center justify-content-center contador">
-          <div className="d-flex gap-3">
+          <div className="d-flex gap-2">
             <div className="text-center">
               <h3 className="fw-bold">{timeLeft.days}</h3>
               <small>Días</small>
