@@ -21,6 +21,9 @@ body, html, #root {
 }
 body{
   background: url(/src/assets/frase.png);
+  background-size: cover;
+ 
+  min-height: 100%;
 }
 
 @font-face {
