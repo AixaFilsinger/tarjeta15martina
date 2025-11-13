@@ -77,8 +77,13 @@ const Varios = () => {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
           >
-            Elegante sport<br /> Evitar el color celeste y plateado
+            Elegante<br /> <span className="fw-semibold">Evitar</span> el color celeste, azul y plateado
           </p>
+           <div className="color-palette">
+                <div className="color-circle celeste me-1" title="celeste"></div>
+                <div className="color-circle azul me-1" title="azul"></div>
+                <div className="color-circle plateado" title="plateado"></div>
+              </div>
         </aside>
         <aside className="col-xs-12 text-center playlist mb-4">
           <img src={Notamusical} alt="" width={80} />

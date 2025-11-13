@@ -21,10 +21,13 @@ function App() {
 
   return (
     <section>
-     <Portada></Portada>
+      <aside className='parte1'>
+        <Portada></Portada>
      <ReproductorMusic></ReproductorMusic>
      <Carrusel></Carrusel>
      <Frase></Frase>
+      </aside>
+     
      <CuentaRegresiva></CuentaRegresiva>
      <Varios></Varios>
     </section>

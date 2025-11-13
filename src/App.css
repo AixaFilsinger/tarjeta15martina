@@ -20,8 +20,7 @@ body, html, #root {
   min-height: 100vh;
 }
 body{
-  background: url(/src/assets/frase.png);
-  background-size: cover;
+  
  
   min-height: 100%;
 }
@@ -78,7 +77,9 @@ body{
         .focus-animation {
           animation: focusIn 2s ease-out forwards;
         }*/
-
+.parte1{
+  background: url(/src/assets/fondolargo.png);
+}
 .portada {
   background:
 /*  linear-gradient(
@@ -86,7 +87,7 @@ body{
       rgba(133, 9, 35, 0.7)   
       rgba(255, 0, 0, 0) 70%    
     ),*/
-  url(./assets/fotocarru2.webp);
+  url(./assets/martu1.png);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -429,6 +430,44 @@ body{
   position: relative;
   z-index: 1; /* para que queden arriba del overlay */
   color: white; /* letras blancas si querés contraste */
+}
+
+/* 🔹 Contenedor de los círculos */
+.color-palette {
+  display: flex;
+  justify-content: center;
+}
+
+/* 🔹 Círculos base */
+.color-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #C0C0C0;
+  box-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+/* 🔹 Colores específicos */
+.color-circle.plateado {
+ background: linear-gradient(
+    45deg,
+    #F5F5F5 0%,   /* Blanco/Gris muy claro para el brillo */
+    #BDBDBD 35%,  /* Gris medio */
+    #696969 50%,  /* Gris oscuro para contraste */
+    #BDBDBD 65%,  /* Gris medio */
+    #F5F5F5 100%  /* Blanco/Gris muy claro para el brillo */
+  );
+
+  /* Fallback */
+  background-color: #C0C0C0;
+}
+.color-circle.celeste{
+ 
+  background-color: rgb(173, 216, 230);
+}
+.color-circle.azul {
+ 
+  background-color:rgb(64, 164, 227);
 }
 
 
