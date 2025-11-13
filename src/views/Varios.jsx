@@ -6,7 +6,7 @@ import copas from "../assets/fiesta.png";
 import asistencia from "../assets/invitacion.png";
 import regalo from "../assets/regalo.png";
 import brillo from "../assets/star.png";
-import qr from "../assets/qr.jpeg";
+import qr from "../assets/QR.jpg";
 import { useState } from "react";
 
 const Varios = () => {
@@ -20,7 +20,7 @@ const Varios = () => {
       <article className="row">
         <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
             <img src={brillo} alt="" className="brillo brillo-top"/>
-          <img src={copas} alt="" width={150} />
+          <img src={copas} alt="" width={190} />
           <h4
             data-aos="fade-right"
             data-aos-offset="300"
@@ -176,7 +176,7 @@ const Varios = () => {
         <h3 className="qr mb-5 mt-5">
           Compartamos los recuerdos de la noche juntos.<br/>¡Subí tus fotos acá!
         </h3>
-        <img src={qr} alt="" width={300} />
+        <img src={qr} alt="" width={300}  className="rounded"/>
       </article>
       <article
         className=" fin d-flex flex-column justify-content-center align-items-center position-relative"
