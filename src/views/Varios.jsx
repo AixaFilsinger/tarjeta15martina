@@ -172,12 +172,6 @@ const Varios = () => {
       
     </section>
     </article>
-    <article className="text-center mb-5 container p-3" data-aos="fade-up">
-        <h3 className="qr mb-5 mt-5">
-          Compartamos los recuerdos de la noche juntos.<br/>¡Subí tus fotos acá!
-        </h3>
-        <img src={qr} alt="" width={300}  className="rounded"/>
-      </article>
       <article
         className=" fin d-flex flex-column justify-content-center align-items-center position-relative"
        
