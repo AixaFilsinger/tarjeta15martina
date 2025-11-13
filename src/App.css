@@ -328,17 +328,17 @@ body{
 }
 
 .modal-custom {
-  color: #8cd5ff;             /* texto oscuro */
+  color: black;             /* texto oscuro */
   font-family: 'Nunito', sans-serif;
 }
 .modal-custom p {
   font-family:'Nunito', sans-serif ;
-  color: #8cd5ff;             /* asegura que los párrafos se vean */
+  color: black;             /* asegura que los párrafos se vean */
   font-size: 1.5rem;
   margin: 8px 0;
 }
 .btn-varios2 {
-  background: #8cd5ff;
+  background: black;
   color: #fff;
   border: 2px solid rgb(168, 168, 168);
   border-radius: 50px;
