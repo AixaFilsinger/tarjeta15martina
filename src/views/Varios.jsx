@@ -1,8 +1,8 @@
 import adorno from "../assets/adornopastel.png";
-import boladisco from "../assets/Boladisco.png";
+import boladisco from "../assets/boladisco.png";
 import dressCode from "../assets/Dresscode.png";
 import Notamusical from "../assets/Notamusical.png";
-import copas from "../assets/Copas.png";
+import copas from "../assets/fiesta.png";
 import asistencia from "../assets/invitacion.png";
 import regalo from "../assets/regalo.png";
 import brillo from "../assets/star.png";
@@ -19,7 +19,7 @@ const Varios = () => {
       <section className="container d-flex flex-column align-items-center varios">
       <img src={adorno} alt="" width={300} className="mt-5" />
       <article className="row">
-        <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
+        {/*<aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
             <img src={brillo} alt="" className="brillo brillo-top"/>
           <img src={misa} alt="" width={100} />
           <h4
@@ -45,7 +45,7 @@ const Varios = () => {
           >
             CÓMO LLEGAR
           </button>
-        </aside>
+        </aside>*/}
         <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
             <img src={brillo} alt="" className="brillo brillo-top"/>
           <img src={copas} alt="" width={150} />
