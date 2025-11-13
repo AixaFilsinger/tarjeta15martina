@@ -18,33 +18,6 @@ const Varios = () => {
       <section className="container d-flex flex-column align-items-center varios">
       <img src={adorno} alt="" width={300} className="mt-5" />
       <article className="row">
-        {/*<aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
-            <img src={brillo} alt="" className="brillo brillo-top"/>
-          <img src={misa} alt="" width={100} />
-          <h4
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
-            Misa
-          </h4>
-          <p
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
-            23 de noviembre<br/>Iglesia Virgen de la Merced<br />
-            20hs
-          </p>
-          <button
-            className="btn-varios3 mt-3 mb-5"
-            onClick={() =>
-              window.open("https://maps.app.goo.gl/KVPWULJEK3yu9vaE6")
-            }
-          >
-            CÓMO LLEGAR
-          </button>
-        </aside>*/}
         <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
             <img src={brillo} alt="" className="brillo brillo-top"/>
           <img src={copas} alt="" width={150} />
