@@ -46,7 +46,7 @@ const CuentaRegresiva = () => {
   return (
     <section className="cuentaRe d-flex flex-column justify-content-end align-items-center">
       <h2 className="h2-cuentaRe mb-0">¡Tan solo faltan!</h2>
-      <aside className="px-2 pb-2">
+      <aside className="">
         <div className="d-flex flex-column align-items-center justify-content-center contador">
           <div className="d-flex gap-3">
             <div className="text-center">
