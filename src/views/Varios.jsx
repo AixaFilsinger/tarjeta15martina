@@ -1,5 +1,5 @@
 import adorno from "../assets/adornopastel.png";
-import boladisco from "../assets/boladisco.png";
+import boladisco from "../assets/boladisco1.png";
 import dressCode from "../assets/Dresscode.png";
 import Notamusical from "../assets/Notamusical.png";
 import copas from "../assets/fiesta.png";
